@@ -1,0 +1,76 @@
+body {
+  /* background-image: url('images/background.png'); */
+  background-image: url('images/background2.png');
+
+  background-size: cover;
+  font-family: 'Jost', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+main {
+  margin: 120px 120px;
+}
+
+.gif {
+  width: 100px;
+  position: absolute;
+  margin-top: -85px;
+  margin-left: 175px;
+}
+
+h1 {
+  color: rgb(187, 121, 93);
+  /* color: rgba(72, 88, 45, 0.377); */
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin-top: 130px;
+  border-radius: 0.4em;
+}
+
+#funcionamento {
+  color: rgba(187, 121, 93, 0.61);
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 200px;
+  /* margin-top: -18px; */
+}
+
+#lista-tarefas {
+  max-width: 245px;
+}
+
+ol {
+  text-align: left;
+  margin-left: -18px;
+}
+
+ol li {
+  color: rgba(72, 88, 45, 0.377);
+  /* color: rgba(216, 233, 182, 0.281); */
+  font-size: 16px;
+  font-weight: 400;
+}
+input {
+  padding: 2px 0px;
+  background-color: rgb(253, 243, 230);
+  border: 1.5px solid rgb(243, 212, 171);
+  border-radius: 0.3em;
+}
+
+button {
+  background-color: rgb(253, 243, 230);
+  border: 1.5px solid rgb(243, 212, 171);
+  color: rgb(187, 121, 93);
+  border-radius: 0.3em;
+  padding: 2px 6.5px;
+}
+
+#criar-tarefa {
+  padding: 2px 13px;
+  /* margin-left: 3px; */
+}
